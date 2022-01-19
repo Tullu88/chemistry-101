@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    outline: 1px solid gray;
+    width: 60px;
+    height: 60px;
+    justify-content: space-evenly;
+}
+
+.container b {
+    padding-left: 5%;
+    height: 13px;
+    font-size: small;
+    font-weight: normal;
+}
+
+.container abbr {
+    height: 15px;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.container em {
+    height: 15px;
+    font-size: small;
+    padding-left: 5%;
+}
+
+.container data {
+    height: 15px;
+    font-size: small;
+    margin-bottom: 2%;
+    padding-left: 5%;
+}
+
